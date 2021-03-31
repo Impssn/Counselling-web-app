@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css"
+     href="{% static 'C:/Users/sathya narayanan/Desktop/sol_site/sol_site/static/css/maiiin2.css' %}">
+</head>
+<body id="opk"style="background-image: url('{% static '5aa728bd1f58146c3bb1cf3aa775652a.jpg' %}');">
+    <script>
+        function ver()
+        {
+            var j = 0;
+            var ele = document.getElementsByName('choosetitl');
+            for(i=0; i < ele.length ; i++)
+            {
+                if(ele[i].checked)
+                {
+                    j=1;
+                }
+            }
+            if(j == 0)
+            {
+                alert("Please choose the case that matches You the Most");
+            }
+        }
+        </script>
+   <center><h2>Now along with Positivity,Optimism and a Heartfullness of Hopes<br><center>tell us What sort of Problems have been Disturbing You</center></h2></center><br>
+    <form action="choose" id="chosetitl" method="POST">
+        {% csrf_token %}
+        <input type="radio" name="choosetitl" value="forced">Being Forced<br>
+        <input type="radio" name="choosetitl" value="finance">Finance/Wealth<br>
+        <input type="radio" name="choosetitl" value="fitness">Fitness/Health<br>
+        <input type="radio" name="choosetitl" value="love">Love/Relationship<br>
+        <input type="radio" name="choosetitl" value="discrimination">Self-respect/Discrimination<br>
+       <span id="uhg"><button type="submit" class="btn btn-success" onclick="ver()">GET SOLUTION</button></span>   
+    </form>
+
+
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css"
+    href="{% static '/css/mmain7.css' %}">
+    <link rel="stylesheet" type="text/css"
+     href="{% static '/css/mainn7.css' %}">
+</head>
+<body id="loj" style="background-image: url('{% static '2b680ec5cad8a8023e0649a18f0aee8f.jpg' %}');">
+    <script>
+        function alt()
+        {
+            if(document.getElementById("cmtbtn1").value != "" && document.getElementById("cmtbtn2").value != "")
+            {
+                 alert("Commented Successfully!!!");
+            }
+            else
+            {
+                alert("Comment Failed ( comment is OPTIONAL )!!!") ;   
+            }
+         }
+    </script>
+    <h3 id="hyu">
+        If you have any long lasting disease and your Doctor says that you'll have this for your lifetime and 
+        it's incurable then try to overcome it by forgetting all of it's harmful effects and taking your 
+        prescribed diet and Medications.
+        <!DOCTYPE html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"><style>img{display: block; margin-left: auto; margin-right: auto;}</style></head><body><img src="data:image/jpeg;base64,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" alt="longg.jpg" style="max-width:100%;"></body></html>
+    
+        before you conclude it's incurable please do consult Medical
+        personnals from diffrent branches like Allopathy, Ayurveda, Unani, Siddha etc... Because even the 
+        Traditional Medical methods may also have the cure for your disease. 
+    </h3>
+   <h3><a href="https://www.google.com/search?sxsrf=ALeKk02c8gumvDrzuNLF0CwhXioLoGczDg%3A1615304413378&ei=3ZZHYLDWFvma4-EPjfK0iAM&q=best+dr+in+my+toen&oq=best+dr+in+my+toen&gs_lcp=Cgdnd3Mtd2l6EAMyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECcyBwgjEOoCECdQkxVY6D1gjUloAXACeACAAQCIAQCSAQCYAQCgAQGqAQdnd3Mtd2l6sAEKwAEB&sclient=gws-wiz&ved=0ahUKEwjwuI3uxaPvAhV5zTgGHQ05DTEQ4dUDCA0&uact=5">
+    click here to get some of the doctors near you</a><br><br><b>
+        You may feel free to leave your Queries/Feedback etc... in comments Section. Your identity is<span id="reed"> optional.</span>
+        but if You expect any reply for your comment please do leave your E-mail id.<br>
+        <span id="bro">NOTE: Below section is optional</span></b></body></h3>
+    <center><form action="per" method="POST" id=tyre>
+        {% csrf_token %}
+        <h4>E-mail id :<br> <input type="text" name="cmt1" id="cmtbtn1"><br>
+        Comment :<br><span id="poij"><textarea type="text" id="cmtbtn2" name="cmt2" width="94px" Style="text-align: left" id="poij2"></textarea></span><br>
+        <span id="uhg"><button type="submit" class="btn btn-success" onclick="alt()">SUBMIT</button></span></h4>
+        </form></center>
+    
+</body>
+</html>

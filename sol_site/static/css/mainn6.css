@@ -1,0 +1,34 @@
+#fgk{
+    color:black;
+    margin-left: 3%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-weight: 450;
+}
+#po{
+    color:black;
+    word-spacing: 2px;
+    margin-left: 3%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-weight:450;
+}
+#loj{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 3%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#uhg{
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
