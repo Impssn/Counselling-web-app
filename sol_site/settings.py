@@ -28,7 +28,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 STATICFILES_DIRS = [
-    "sol_site/static"#"C:/Users/sathya narayanan/Desktop/sol_site/sol_site/static",
+    "sol_site/static"   #"C:/Users/sathya narayanan/Desktop/sol_site/sol_site/static",
 ]
 
 # Application definition
